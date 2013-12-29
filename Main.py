@@ -6,6 +6,8 @@
 Gameover = False;
 
 while not Gameover:
-    Player_Input = input("Press 'e' to exit");
+    Player_Input = input("Press 'e' to exit"); #Gather user Input
+    
+    #Begin processing user input
     if Player_Input == 'e':
         Gameover = True;
